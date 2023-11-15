@@ -1,11 +1,11 @@
-![](img\vector-search-architecture-diagram.png)
+![](img/vector-search-architecture-diagram.png)
 
 # Azure AI Studio: LangChain Quickstart Sample
 
 This project use the AI Search service to create a vector store for a custom department store data.  We will be using Azure Open AI's text-embedding-ada-002 deployment for embedding the data in vectors. The vector representation of your data is stored in [Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search) (formerly known as "Azure Cognitive Search").  
 To enable the user to ask questions our data in a conversational format, we'll using Langchain to connect our prompt template with our Azure Open AI LLM.
 
-![](img\rag-pattern.png)
+![](img/rag-pattern.png)
 
 We'll use Retrieval Augmented Generation (RAG), a pattern used in AI which uses an LLM to generate answers with your own data. In addition, we'll  construct prompt template to provide the scope of our dataset, as well as the context to the submit questions. Lastly, we'll maintain the state of the conversation by store the chat history in the prompt.
 
@@ -39,18 +39,6 @@ Learn to build your own copilot using the Azure AI Studio with core resources (A
 4. Validate copilot by asking a question about your custom data.
 5. Evaluate the performance of your copilot implementation.
 6. (Optional) Deploy the copilot to Azure and invoke it.
-
-## ✅ | Pre-Requisites
-
-To work through this tutorial you will need:
-1. Azure account with active subscription.
-2. GitHub account with access to GitHub Codespaces.
-3. (Optional) Set of docs that represent "your custom data".
-4. Install [Python 3.10](https://www.python.org/) or higher.
-
-The sample comes with a set of "product data" docs as default custom data. 
-
-Make sure you have [access to the Azure AI Studio](https://learn.microsoft.com/en-us/azure/ai-studio/faq#how-can-customers-access-azure-ai-studio--) in your region, and can access related resources in your subscription. Refer to the [Azure AI Studio FAQ](https://learn.microsoft.com/en-us/azure/ai-studio/faq#how-can-customers-access-azure-ai-studio--) for more details on regional availability, pricing and more.
 
 ## 🏁 | Let's Get Started!
 

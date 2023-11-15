@@ -68,31 +68,15 @@ Now, generate a .env file that will be used to configure the running code to use
 ai dev new .env
 ```
 
-## Step 4: Run the co-pilot with a sample question
+## Step 4: Run the co-pilot with Jupiter notebook
 
 To run a single question & answer through the sample co-pilot:
-```bash
-python src/run.py --question "which tent is the most waterproof?"
+1. Open the `copilot_langchain.ipynb` notebook in the visual studio code (VS code) editor.
+2. In VS code, click on **Select Kernel**. Then under Python Environments, select the **Python 3.10** environment you just created
+3. Click on **Run All** to run the notebook.
+4. Try asking another question about the products in the dataset. For example:
 ```
-
-To run a sample implementation of LangChain, specify the `--implementation` flag with a `langchain`:
-
-```bash
-python src/run.py --implementation langchain --question "what is the waterproof rating of the tent I just ordered?"
-```
-
-## Step 6: Deploy the sample code
-
-** NOT YET WORKING **
-
-To deploy one of the implementations to an online endpoint, use:
-```bash
-python src/run.py --deploy
-```
-
-To test out the online enpoint, run:
-```bash
-python src/run.py --invoke 
+which tent is the most waterproof?
 ```
 
 ### Customize the development container
