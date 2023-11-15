@@ -22,7 +22,7 @@ This will launch a Codespaces environment with all the dependencies installed.  
 
 1. Install the python packages in the command line terminal of the visual studio code editor.
 
-![](img/terminal.png)
+![](/img/2-terminal.png)
 
 ```bash
 pip install -r requirements.txt
@@ -76,21 +76,21 @@ To run a single question & answer through the sample co-pilot:
 
 1. Open the `copilot_langchain.ipynb` notebook in the visual studio code (VS code) editor.
 
-![](img/3-select-kernel.png)
+![](/img/3-select-kernel.png)
 
 2. In VS code, click on **Select Kernel**. Then under Python Environments, select the **Python 3.10.13** environment you just created
 
-![](img/3-python-env.png)
+![](/img/3-python-env.png)
 
 3. Click on **Run All** to run the notebook.
 
-![](img/4-run-all.png)
+![](/img/4-run-all.png)
 
 4. Try asking another question about the products in the dataset. For example:
 ```
 which tent is the most waterproof?
 ```
-![](img/5-question.png)
+![](/img/5-question.png)
 
 ### Customize the development container
 
