@@ -23,7 +23,7 @@ The sample showcases features from the [Azure AI Studio preview](https://aka.ms/
 
 * [Azure AI Studio](https://aka.ms/azureaistudio/docs) - build, evaluate, deploy, your AI solution from one UI.
 * [Azure AI Services](https://learn.microsoft.com/azure/ai-services/what-are-ai-services) - core AI Service APIs & Models usable in Azure AI Studio 
-* [Azure AI SDK](https://learn.microsoft.com/azure/ai-studio/how-to/sdk-install?) - for programmatic access to Azure AI Services.
+* [Azure AI SDK](https://learn.microsoft.com/azure/ai-studio/how-to/sdk-install) - for programmatic access to Azure AI Services.
 * [Azure AI CLI](https://learn.microsoft.com/azure/ai-studio/how-to/cli-install) - for command-line access to Azure AI Services.
 
 > [!WARNING]  
@@ -49,7 +49,7 @@ Ready to get started building a copilot with your own custom data?
 ## 📚 | Relevant Resources
 
 1. [Azure AI Studio](https://aka.ms/azureaistudio) - UI to explore, build & manage AI solutions.
-1. [Azure AI Studio Docs](https://aka.ms/azureaistudio/docs) - Azure AI Studio documentation.
+1. [Azure AI Studio Docs](https://learn.microsoft.com/azure/ai-studio) - Azure AI Studio documentation.
 1. [Azure AI Services](https://learn.microsoft.com/azure/ai-services/what-are-ai-services) - Azure AI Services documentation.
 1. [Training: Using vector search in Azure Cognitive Search](https://learn.microsoft.com/training/modules/improve-search-results-vector-search) 
 1. [Tutorial: Deploy a web app for chat on your data](https://learn.microsoft.com/azure/ai-studio/tutorials/deploy-chat-web-app) 
