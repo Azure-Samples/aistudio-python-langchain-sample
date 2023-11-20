@@ -78,31 +78,7 @@ which tent is the most waterproof?
 ```
 ![](/img/5-question.png)
 
-## Step 5: Delete your Azure resources
 
-To delete the Azure resources created in this tutorial, complete the following steps:
-
-1. [Launch the Azure AI Studio](https://aka.ms/azureaistudio).  Verify that you are in logged in the studio.  If not, click on the **Sign In** button in the top right corner of the page. 
-
-![](/img/5-1-ai-search-sign-up.png)
-
-2. Click on the **Manage** tab.
-
-![](/img/5-1-ai-search-manage.png)
-
-3. Under **Your resource** section, click on the **Azure Portal** link.  This will redirect you to the Azure Portal for your Azure AI Studio resource.
-
-4. Click on your **resource group**.
-
-![](/img/5-3-ai-search-resource-group.png)
-
-5. Click on the **Delete resource group** button.
-
-![](/img/5-4-ai-search-delete-resource-group.png)
-
-5. On the delete a resource group pane, type in the **delete** in the **Enter resource group name to confirm deletion** field.  Then click on the **Delete** button.
-
-6. Wait for the resource group to be deleted.  This may take a few minutes.
 
 ### Customize the development container
 
