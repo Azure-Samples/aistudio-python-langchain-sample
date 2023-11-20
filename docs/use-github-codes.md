@@ -14,28 +14,9 @@ Make sure you have [access to the Azure AI Studio](https://learn.microsoft.com/e
 
 To get started quickly, you can use a pre-built development environment. **Click the button below** to open the repo in GitHub Codespaces, and then continue the readme!
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure/aistudio-copilot-sample/tree/oct-refresh?quickstart=1)  
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure/aistudio-copilot-sample?quickstart=1)  
 
 This will launch a Codespaces environment with all the dependencies installed.  Once the environment is ready, you can run the following commands to create the Azure resources and run the sample code.
-
-## Setup Python installation and Azure Login
-
-1. Install the python packages in the command line terminal of the visual studio code editor.
-
-![](/img/2-terminal.png)
-
-```bash
-pip install -r requirements.txt
-```
-2. Login into Azure
-```bash
-az login --use-device-code
-```
-3. After logging in, choose the subscription account you want to use for this project.
-
-```bash
-az account set --s <subscription id>
-```
 
 ## Set up your development environment
 
@@ -48,6 +29,11 @@ To install the CLI on Windows and MacOS, follow the instructions [here](https://
 
 2. Create and connect to Azure Resources
 
+For best experience choose one of these preview regions for this exercise:
+- Canada East
+- North Central US
+- Sweden
+ 
 Run ai init to create and/or connect to existing Azure resources:
 ```
 ai init
@@ -91,6 +77,32 @@ To run a single question & answer through the sample co-pilot:
 which tent is the most waterproof?
 ```
 ![](/img/5-question.png)
+
+## Step 5: Delete your Azure resources
+
+To delete the Azure resources created in this tutorial, complete the following steps:
+
+1. [Launch the Azure AI Studio](https://aka.ms/azureaistudio).  Verify that you are in logged in the studio.  If not, click on the **Sign In** button in the top right corner of the page. 
+
+![](/img/5-1-ai-search-sign-up.png)
+
+2. Click on the **Manage** tab.
+
+![](/img/5-1-ai-search-manage.png)
+
+3. Under **Your resource** section, click on the **Azure Portal** link.  This will redirect you to the Azure Portal for your Azure AI Studio resource.
+
+4. Click on your **resource group**.
+
+![](/img/5-3-ai-search-resource-group.png)
+
+5. Click on the **Delete resource group** button.
+
+![](/img/5-4-ai-search-delete-resource-group.png)
+
+5. On the delete a resource group pane, type in the **delete** in the **Enter resource group name to confirm deletion** field.  Then click on the **Delete** button.
+
+6. Wait for the resource group to be deleted.  This may take a few minutes.
 
 ### Customize the development container
 

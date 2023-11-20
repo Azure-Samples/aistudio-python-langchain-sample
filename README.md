@@ -22,7 +22,7 @@ This is the basic quickstart tutorial for the Azure AI Studio using Langchain. F
 The sample showcases features from the [Azure AI Studio preview](https://aka.ms/azureai/docs):
 
 * [Azure AI Studio](https://aka.ms/azureaistudio/docs) - build, evaluate, deploy, your AI solution from one UI.
-* [Azure AI Services](https://learn.microsoft.com/azure/ai-services/what-are-ai-services) - core AI Service APIs & Models usable in Azure AI Studio 
+* [Azure AI Services](htthttps://aka.ms/azureaistudiops://learn.microsoft.com/azure/ai-services/what-are-ai-services) - core AI Service APIs & Models usable in Azure AI Studio 
 * [Azure AI SDK](https://learn.microsoft.com/azure/ai-studio/how-to/sdk-install) - for programmatic access to Azure AI Services.
 * [Azure AI CLI](https://learn.microsoft.com/azure/ai-studio/how-to/cli-install) - for command-line access to Azure AI Services.
 
