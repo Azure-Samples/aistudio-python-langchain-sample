@@ -24,14 +24,7 @@ This will launch a Codespaces environment with all the dependencies installed.  
 
 ## Set up your development environment
 
-1. install the Azure AI CLI, on Ubuntu:
-```
-curl -sL https://aka.ms/InstallAzureAICLIDeb | sudo bash
-```
-
-To install the CLI on Windows and MacOS, follow the instructions [here](https://github.com/Azure/azureai-insiders/blob/main/previews/aistudio/how-to/use_azureai_sdk.md#install-the-cli).
-
-2. Create and connect to Azure Resources
+1. Create and connect to Azure Resources
 
 For best experience choose one of these preview regions for this exercise:
 - Canada East
@@ -44,7 +37,10 @@ ai init
 ```
 
 - This will will ask you to select or create resources, choose  **AI Project resource** and follow the prompts to create an Azure OpenAI resource, model deployments, and Azure AI  search resource
-- This will generate a config.json file in the root of the repo, the SDK will use this when authenticating to Azure AI services.
+
+![](/img/ai-init.png)
+
+- This will generate a config.json file in the root of the repo, the SDK will use this to authenticate and connect to Azure AI services.
 
 Note: You can open your project in [AI Studio](https://aka.ms/AzureAIStudio) to view your projects configuration and components (generated indexes, evaluation runs, and endpoints)
 
