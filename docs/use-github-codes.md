@@ -24,7 +24,17 @@ This will launch a Codespaces environment with all the dependencies installed.  
 
 ## Set up your development environment
 
+1. Login into your Azure subscription account:
+
+```
+az login --use-device-code
+```
+
 1. Create and connect to Azure Resources
+
+
+2. Create and connect to Azure Resources
+
 
 For best experience choose one of these preview regions for this exercise:
 - Canada East
@@ -36,11 +46,16 @@ Run ai init to create and/or connect to existing Azure resources:
 ai init
 ```
 
-- This will will ask you to select or create resources, choose  **AI Project resource** and follow the prompts to create an Azure OpenAI resource, model deployments, and Azure AI  search resource
+- This will will ask you to select or create resources, choose  **New AI Project**.
 
 ![](/img/ai-init.png)
 
-- This will generate a config.json file in the root of the repo, the SDK will use this to authenticate and connect to Azure AI services.
+- Select your subscription from the pop-up window, then follow the prompts to create an Azure OpenAI resource, model deployments, and Azure AI  search resource
+
+
+- This will generate a config.json file in the root of the repo, the SDK will use this when authenticating to Azure AI services.
+
+
 
 Note: You can open your project in [AI Studio](https://aka.ms/AzureAIStudio) to view your projects configuration and components (generated indexes, evaluation runs, and endpoints)
 

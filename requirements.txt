@@ -12,6 +12,7 @@ pytest
 
 langchain==0.1.1
 langchain-openai==0.0.2.post1
+azure-search-documents==11.4.0b11
 
 # inference server dependencies
 azureml-inference-server-http
