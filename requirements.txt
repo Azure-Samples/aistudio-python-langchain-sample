@@ -1,23 +1,17 @@
 # other app dependencies
 ipykernel
 
-# generative ai SDK dependencies
-pydantic<2
-azure-ai-generative[evaluate,index]
+openai>1.0 
 
-# promptflow dependencies, these should be optional in the future
+azure_ai_resources @https://pkgs.dev.azure.com/azure-sdk/29ec6040-b234-4e31-b139-33dc4287b756/_packaging/3572dbf9-b5ef-433b-9137-fc4d7768e7cc/pypi/download/azure-ai-resources/1a20240207004/azure_ai_resources-1.0.0a20240207004-py3-none-any.whl
+azure-ai-generative[evaluate,index,promptflow] @https://pkgs.dev.azure.com/azure-sdk/29ec6040-b234-4e31-b139-33dc4287b756/_packaging/3572dbf9-b5ef-433b-9137-fc4d7768e7cc/pypi/download/azure-ai-generative/1a20240207004/azure_ai_generative-1.0.0a20240207004-py3-none-any.whl
+
 # hardcoded the version of azureml-mlflow here for faster Docker image building speed
 azureml-mlflow==1.53.0
-promptflow[azure] @https://azuremlsdktestpypi.blob.core.windows.net/repo/promptflow/promptflow-0.0.109137057-py3-none-any.whl
-promptflow-tools
-keyring
 pytest
 
-# langchain dependencies, these should be optional in the future
-# langchain moved Embeddings from langchain.embeddings.base to langchain.schema.embeddings while azureml-rag is still referencing it.
-# once azureml-rag fixes, we should remove the langchain reference from this file
-langchain==0.0.324
-semantic-kernel
+langchain==0.1.1
+langchain-openai==0.0.2.post1
 
 # inference server dependencies
 azureml-inference-server-http
