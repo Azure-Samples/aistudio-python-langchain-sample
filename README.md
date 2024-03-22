@@ -2,8 +2,8 @@
 
 # Azure AI Studio: LangChain Quickstart Sample
 
-This project use the AI Search service to create a vector store for a custom department store data.  We will be using Azure Open AI's text-embedding-ada-002 deployment for embedding the data in vectors. The vector representation of your data is stored in [Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search) (formerly known as "Azure Cognitive Search").  
-To enable the user to ask questions our data in a conversational format, we'll using Langchain to connect our prompt template with our Azure Open AI LLM.
+This project use the AI Search service to create a vector store for a custom department store data.  We will be using Azure OpenAI's text-embedding-ada-002 deployment for embedding the data in vectors. The vector representation of your data is stored in [Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search) (formerly known as "Azure Cognitive Search").  
+To enable the user to ask questions our data in a conversational format, we'll using Langchain to connect our prompt template with our Azure OpenAI LLM.
 
 ![](img/rag-pattern.png)
 
