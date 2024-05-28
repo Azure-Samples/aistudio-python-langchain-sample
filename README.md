@@ -1,3 +1,7 @@
+ ### :warning: WARNING: **This repository is deprecated and no longer maintained** :warning:
+|There is a new repository that covers the latest Azure AI code-first experiences. Navigate to and star this one instead: https://github.com/Azure-Samples/rag-data-openai-python-promptflow/tree/main|
+|---------------------------|
+
 ![](img/vector-search-architecture-diagram.png)
 
 # Azure AI Studio: LangChain Quickstart Sample
